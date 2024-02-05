@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "otto-test"
+version = "0.1.0"
+description = ""
+authors = ["otto"]
+readme = "README.md"
+packages = [{include = "otto_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
